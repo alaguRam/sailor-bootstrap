@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<title>sailor bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+</head>
+
+
+<body>
+
+	<section id="home-section" class="nav-sec">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-expand-lg  bg-white py-3 pd shadow fixed-top">
+					<div class="container">
+						<a class="navbar-brand logo" href="#">SAILOR</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<i class="bi bi-list"></i>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end navul" id="navbarSupportedContent">
+							<ul class="navbar-nav nav-ul">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#about-sec">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#skill-sec">Services</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#education-sec">Portfolio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#projects-sec">Team</a>
+								</li>								
+								<li class="nav-item">
+									<a class="nav-link" href="#contact-sec ">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<div id="none" class="d-grid gap-2 d-md-flex justify-content-md-end">
+						  <button class="btn btn-primary me-md-2 red" type="button">Get Started</button>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<header class="head">
+		<div class="container-fluid">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/img1.jpg" class="d-block w-100" alt="..." style="
+    filter: brightness(0.6);
+">
+						<div class="carousel-caption  d-md-block inside">
+							<h5>Welcome to Sailor</h5>
+							<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+								ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+								doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+							<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+								More</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/img2.jpg" class="d-block w-100" alt="..." style="
+    filter: brightness(0.6);
+">
+						<div class="carousel-caption  d-md-block inside">
+							<h5>Lorem Ipsum Dolor</h5>
+							<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+								ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+								doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+							<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+								More</a>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="img/img3.jpg" class="d-block w-100" alt="..." style="
+    filter: brightness(0.6);
+">
+						<div class="carousel-caption  d-md-block inside">
+							<h5>Sequi ea ut et est quaerat</h5>
+							<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+								ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+								doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+							<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+								More</a>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+
+
+
+
+
+	<section id="about-sec" class="about">
+		<div class="container">
+
+			<div class="row content">
+				<div class="col-lg-6">
+					<h2>Eum ipsam laborum deleniti velitena</h2>
+					<h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave
+					</h3>
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0">
+					<p>
+						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+						in voluptate
+						velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in
+						culpa qui officia deserunt mollit anim id est laborum
+					</p>
+					<ul>
+						<li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+							consequa</li>
+						<li><i class="fa-solid fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate
+							velit</li>
+						<li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in</li>
+					</ul>
+					<p class="fst-italic">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore
+						magna aliqua.
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<section id="skill-sec" class="clients section-bg">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-1.png" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-2.png" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-3.png" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-4.png" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-5.png" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+					<img src="img/client-6.png" class="img-fluid" alt="">
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section id="education-sec" class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-briefcase"></i>
+						<div class="left">
+							<h4><a href="#">Lorem Ipsum</a></h4>
+							<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+								occaecati cupiditate non provident</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-card-checklist"></i>
+						<div class="left">
+							<h4><a href="#">Dolor Sitema</a></h4>
+							<p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat tarad limino ata</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-bar-chart"></i>
+						<div class="left">
+							<h4><a href="#">Sed ut perspiciatis</a></h4>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+								nulla pariatur</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-binoculars"></i>
+						<div class="left">
+							<h4><a href="#">Nemo Enim</a></h4>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+								anim id est laborum</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-brightness-high"></i>
+						<div class="left">
+							<h4><a href="#">Magni Dolore</a></h4>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+								voluptatum deleniti atque</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-6 col-12">
+					<div class="icon-box">
+						<i class="bi bi-calendar-week"></i>
+						<div class="left">
+							<h4><a href="#">Eiusmod Tempor</a></h4>
+							<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
+								nobis est eligendi</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section id="projects-sec" class="port">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-4 box">
+					<div class="card">
+						<img src="img/team-1.jpg" alt="team-img" class="img img-fluid">
+						<div class="card-below">
+							<h4>Walter White</h4>
+							<span>Web Development</span>
+							<p> Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis
+								quaerat qui aut aut aut</p>
+							<div class="social">
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-6 col-lg-4 box">
+					<div class="card">
+						<img src="img/team-2.jpg" alt="team-img" class="img img-fluid">
+						<div class="card-below">
+							<h4>Sarah Jhinson</h4>
+							<span>Marketing</span>
+							<p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum
+								rerum temporibus</p>
+							<div class="social">
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-6 col-lg-4 box">
+					<div class="card">
+						<img src="img/team-3.jpg" alt="team-img" class="img img-fluid">
+						<div class="card-below">
+							<h4>William Anderson</h4>
+							<span>Content</span>
+							<p> Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum
+								toro des clara</p>
+							<div class="social">
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <section id="portfolio" class="portfolio"> -->
+	<!-- <div class="container"> -->
+	<!-- <div class="row"> -->
+	<!-- <div class="col-lg-4 d-flex justify-content-center m-auto"> -->
+	<!-- <ul id="portfolio-flters d-flex"> -->
+	<!-- <li data-filter="#" class="filter-active">All</li> -->
+	<!-- <li data-filter="#" class="">App</li> -->
+	<!-- <li data-filter="#" class="">Card</li> -->
+	<!-- <li data-filter="#" class="">Web</li> -->
+	<!-- </ul> -->
+	<!-- </div> -->
+	<!-- </div> -->
+
+	<!-- <div class="row alagu"> -->
+	<!-- <div class="col-12 col-md-6 col-lg-4  ram"> -->
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-1.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-6.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+
+
+	<!-- <div class="col-12 col-md-6 col-lg-4  ram"> -->
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-2.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-5.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-9.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+	<!-- </div> -->
+
+	<!-- <div class="col-12 col-md-6 col-lg-4 ram"> -->
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-3.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-4.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-7.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+
+	<!-- <div class="colportfolio"> -->
+	<!-- <div class="portfolio-img"> -->
+	<!-- <img src ="https://bootstrapmade.com/demo/templates/Sailor/assets/img/portfolio/portfolio-8.jpg" class="img-fluid"> -->
+	<!-- </div> -->
+	<!-- <div class="rel"> -->
+	<!-- <div class="portfolio-info"> -->
+	<!-- <h4>App 1</h4> -->
+	<!-- <p>App</p> -->
+	<!-- </div>	 -->
+	<!-- <div class="portfolio-link"> -->
+	<!-- <i class="fa-solid fa-plus"></i> -->
+	<!-- <i class="fa-solid fa-link"></i> -->
+	<!-- </div> -->
+	<!-- </div>	 -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </section>	 -->
+
+
+
+
+
+
+
+
+
+
+	<footer class="footer" id="footer contact-sec " data-aos="flip-up">
+		<div class="container">
+			<div class="footer-top">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 footer-col footer-contact">
+						<h3>OnePage</h3>
+						<p>
+							A 108 Adam Street
+							<br>
+							New York, NY 5350 22
+							<br>
+							United States
+							<br>
+							<br>
+							<b>Phone:</b> +1 5589 55488 55
+							<br>
+							<b>Email:</b> info@example.com
+							<br>
+						</p>
+					</div>
+
+
+					<div class="col-lg-2 col-md-6 footer-col footer-links">
+						<h4>Useful Links</h4>
+						<ol>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Home</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">About us</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Services</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Terms of service</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Privacy policy</a></li>
+						</ol>
+					</div>
+
+
+					<div class="col-lg-3 col-md-6 footer-col footer-services">
+						<h4>Our Services</h4>
+						<ol>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Web Design</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Web Development</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Product Management</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Marketing</a></li>
+							<li><i class="fa-solid fa-chevron-right"></i><a href="#">Graphic Design</a></li>
+						</ol>
+					</div>
+
+
+
+					<div class="col-lg-4 col-md-6 footer-col footer-newsletter">
+						<h4>Join Our Newsletter</h4>
+						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+						<form style="position:relative">
+							<input class="mail-input" type="email" name="email" placeholder="">
+							<input class="submit-input" type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container last">
+			<div class="copyright">
+				© Copyright <strong><span>Sailor</span></strong>. All Rights Reserved
+			</div>
+			<div class="credits">
+				Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
